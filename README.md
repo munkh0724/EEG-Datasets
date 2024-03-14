@@ -1,4 +1,3 @@
-# EEG-Datasets
 # STUDY ON PROCESSING BRAIN SIGNALS USING EEG SENSOR BY MACHINE LEARNING
 
 # Collecting brain signal data
