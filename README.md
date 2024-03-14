@@ -61,17 +61,25 @@ Afterward, there will be a black screen for 6 seconds, during which the particip
 
 
 
-
-Figure 2. Thoughts to "turn on" the interrupted video light
-
-
-
-
+<p align="center">
+  <img src="Images/fig2.png" /> <br />
+	Figure 2. Thoughts to "turn on" the interrupted video light
+</p>
 
 
 
 
-Figure 3. Interrupted recording thought of "turning off" the light
+
+
+
+
+
+<p align="center">
+  <img src="Images/fig3.png" /> <br />
+	Figure 3. Interrupted recording thought of "turning off" the light
+</p>
+
+
 
 
 # Continuous recording
@@ -87,8 +95,11 @@ An image of light appears on the screen for 6 seconds, during which the particip
 
 
 
+<p align="center">
+  <img src="Images/fig4.png" /> <br />
+	Figure 4. Thoughts of "turning on" continuous recording light
+</p>
 
-Figure 4. Thoughts of "turning on" continuous recording light
 
 
 The diagram for creating the lofc1.csv file is shown in the figure below. An image of dimming lights appears on the screen for 6 seconds, during which the participant creates the thought 'lights off.' 
@@ -100,8 +111,10 @@ Afterward, for another 6 seconds, the image with the fading light will appear, a
 
 
 
-
-Figure 5. The idea of "turning off" the continuous recording light
+<p align="center">
+  <img src="Images/fig5.png" /> <br />
+	Figure 5. The idea of "turning off" the continuous recording light
+</p>
 
 The lofc1.csv file records normal thoughts, indicated by a blank screen for the duration of 60 seconds.
 
