@@ -15,7 +15,7 @@ Data during each of the above exercises were recorded by reading the EEG signals
 
 
 <p align="center">
-  <img src="Images/fig1.png" />\
+  <img src="Images/fig1.png" /> <br />
 	Figure 1. Connection points of the brain
 </p>
 
