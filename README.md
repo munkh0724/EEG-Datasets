@@ -35,9 +35,9 @@ Measurement instructions
 
 2.Brain Signal Recording Methods:
 
-	• The first 61 entries (Volunteer_1 to Volunteer_61) involved an interrupted entry method, where brain signals were recorded while the volunteers viewed dynamic images. This implies that the recording might have been started and stopped at certain intervals or events.
+• The first 61 entries (Volunteer_1 to Volunteer_61) involved an interrupted entry method, where brain signals were recorded while the volunteers viewed dynamic images. This implies that the recording might have been started and stopped at certain intervals or events.
  
- 	• The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
+ • The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
 
 # Interrupted recording
 
@@ -47,4 +47,36 @@ In general, a file with an index of 0 should not be used because it's where the 
 
 During the experiment, a volunteer participant sits in front of a screen and observes images that alternate between light and darkness for 6-second intervals to evoke specific thoughts. The diagram for creating the lon1.csv file is shown in the figure below. An image of light appears on the screen for 6 seconds, during which the participant thinks "light on". 
 Afterward, there will be a black screen for 6 seconds, during which the participant can think any thought and record it as "normal". Subsequently, the image will flash for another 6 seconds, totaling 60 seconds of recorded video.
+
+
+Figure 2. Thoughts to "turn on" the interrupted video light
+
+
+Figure 3. Interrupted recording thought of "turning off" the light
+
+
+# Continuous recording
+
+In general, a file with an index of 0 should not be used because this file is where the volunteer writes the initial recording method and saves the test recording. Here, the letter "c" is added to the file name, and "-" signifies "continues". 
+
+During the experiment, a volunteer participant sits in front of a screen and observes images that fade in and out of light for 6 seconds to evoke specific thoughts. The diagram for creating the lonc1.csv file is shown in the figure below. 
+
+An image of light appears on the screen for 6 seconds, during which the participant forms the thought "light on". Following that, another 6-second interval with the image of light occurs, during which the participant writes down their thought. A total of 60 seconds is recorded in this manner."
+
+
+
+Figure 4. Thoughts of "turning on" continuous recording light
+
+The diagram for creating the lofc1.csv file is shown in the figure below. An image of dimming lights appears on the screen for 6 seconds, during which the participant creates the thought 'lights off.' 
+
+Afterward, for another 6 seconds, the image with the fading light will appear, and the thought will be written. A total of 60 seconds is recorded.
+
+
+
+Figure 5. The idea of "turning off" the continuous recording light
+
+The lofc1.csv file records normal thoughts, indicated by a blank screen for the duration of 60 seconds.
+
+
+
 
