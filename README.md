@@ -34,8 +34,10 @@ EEG_DATA_COLLECTION-LIGHT
 	•Normal (presumably under regular lighting conditions)
 
 2.Brain Signal Recording Methods:
+
 	•The first 61 entries (Volunteer_1 to Volunteer_61) involved an interrupted entry method, where brain signals were recorded while the volunteers viewed dynamic images. This implies that the recording might have been started and stopped at certain intervals or events.
-	•The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
+ 
+ 	•The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
 
 Interrupted recording
 
