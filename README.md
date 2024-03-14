@@ -16,7 +16,7 @@ Data during each of the above exercises were recorded by reading the EEG signals
 
 
 
-![image description](Images/fig1.png)
+![Figure 1. Connection points of the brain](Images/fig1.png)
 Figure 1. Connection points of the brain
 
 The numbers below each electrode name indicate the order in which they appear in the recording. The signals on the record are numbered from 1 to 14, and columns 4-17 of the resulting table when opening the *.CSV file contain the values of the electrodes, while column 20 contains the label values. The total uncompressed file size is 6.84 GB.
