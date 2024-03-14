@@ -26,3 +26,23 @@ Measurement instructions
 4.	Go to the EEG_DATA_COLLECTION-LIGHT folder and create a VOLUNTEER folder
 	a.	LON- thoughts are taken 5 times. In this case, change the number of the Lonx.csv file
 	b.	LOF- thoughts are taken 5 times. In this case, change the number of the Lofx.csv file
+
+EEG_DATA_COLLECTION-LIGHT
+1. Types of Data Recorded:
+	•Light on
+	•Light off
+	•Normal (presumably under regular lighting conditions)
+
+2.Brain Signal Recording Methods:
+	•The first 61 entries (Volunteer_1 to Volunteer_61) involved an interrupted entry method, where brain signals were recorded while the volunteers viewed dynamic images. This implies that the recording might have been started and stopped at certain intervals or events.
+	•The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
+
+Interrupted recording
+
+The Volunteer_xx folder contains 12 files with the *.CSV extension. The files lof0.csv - lof5.csv contain data for when the light is off and normal thoughts. However, the files lon0.csv – lon5.csv contain data for when the light is on and normal thoughts. These files (lof0.csv and lon0.csv) should not be used for machine learning. 
+
+In general, a file with an index of 0 should not be used because it's where the volunteer records the initial method and saves the test recording. 
+
+During the experiment, a volunteer participant sits in front of a screen and observes images that alternate between light and darkness for 6-second intervals to evoke specific thoughts. The diagram for creating the lon1.csv file is shown in the figure below. An image of light appears on the screen for 6 seconds, during which the participant thinks "light on". 
+Afterward, there will be a black screen for 6 seconds, during which the participant can think any thought and record it as "normal". Subsequently, the image will flash for another 6 seconds, totaling 60 seconds of recorded video.
+
