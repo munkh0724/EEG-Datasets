@@ -1,7 +1,7 @@
 # EEG-Datasets
-STUDY ON PROCESSING BRAIN SIGNALS USING EEG SENSOR BY MACHINE LEARNING
+# STUDY ON PROCESSING BRAIN SIGNALS USING EEG SENSOR BY MACHINE LEARNING
 
-Collecting brain signal data
+# Collecting brain signal data
 
 The brain dataset was supported by the Foundation for Science and Technology of Mongolia and implemented and collected by colleagues from the Electronics Department of the School of Information and Communication Technology at the Mongolian University of Science and Technology.
 This dataset consists of more than 3294 minutes of EEG recording files from 122 volunteers participating in 4 types of exercises as described below. Each participant performed 4 different tasks during EEG recording using a 14-channel EMOTIV EPOC X system. During the experiment, the data consisted of one- and two-minute recordings, which were manipulated to exclude both eyes-open and eyes-closed cases. Additionally, instructions on how to make measurements have been developed. These tasks include the following 4 types of exercises:
@@ -27,19 +27,20 @@ Measurement instructions
 	a.	LON- thoughts are taken 5 times. In this case, change the number of the Lonx.csv file
 	b.	LOF- thoughts are taken 5 times. In this case, change the number of the Lofx.csv file
 
-EEG_DATA_COLLECTION-LIGHT
+# EEG_DATA_COLLECTION-LIGHT
+
 1. Types of Data Recorded:
-	•Light on
-	•Light off
-	•Normal (presumably under regular lighting conditions)
+	• Light on
+	• Light off
+	• Normal (presumably under regular lighting conditions)
 
 2.Brain Signal Recording Methods:
 
-	•The first 61 entries (Volunteer_1 to Volunteer_61) involved an interrupted entry method, where brain signals were recorded while the volunteers viewed dynamic images. This implies that the recording might have been started and stopped at certain intervals or events.
+	• The first 61 entries (Volunteer_1 to Volunteer_61) involved an interrupted entry method, where brain signals were recorded while the volunteers viewed dynamic images. This implies that the recording might have been started and stopped at certain intervals or events.
  
- 	•The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
+ 	• The remaining 61 videos (Volunteer_62 to Volunteer_122) were recorded continuously while the volunteers watched dynamic images. This suggests that there was no interruption in the recording process; it was done continuously throughout the viewing session.
 
-Interrupted recording
+# Interrupted recording
 
 The Volunteer_xx folder contains 12 files with the *.CSV extension. The files lof0.csv - lof5.csv contain data for when the light is off and normal thoughts. However, the files lon0.csv – lon5.csv contain data for when the light is on and normal thoughts. These files (lof0.csv and lon0.csv) should not be used for machine learning. 
 
