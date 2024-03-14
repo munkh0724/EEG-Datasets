@@ -30,12 +30,14 @@ Measurement instructions
 	a.	LON- thoughts are taken 5 times. In this case, change the number of the Lonx.csv file
 	b.	LOF- thoughts are taken 5 times. In this case, change the number of the Lofx.csv file
 
+
 # EEG_DATA_COLLECTION-LIGHT
 
 1. Types of Data Recorded:
-	• Light on
-	• Light off
-	• Normal (presumably under regular lighting conditions)
+• Light on
+• Light off
+• Normal (presumably under regular lighting conditions)
+
 
 2.Brain Signal Recording Methods:
 
