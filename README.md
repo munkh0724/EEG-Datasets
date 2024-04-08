@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="869zrAWcixtFpmJrduAzwYjvY05aqfGGC_UyPIiF1IY" />
+
 # STUDY ON PROCESSING BRAIN SIGNALS USING EEG SENSOR BY MACHINE LEARNING
 
 # Collecting brain signal data
